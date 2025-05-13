@@ -1,39 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #f2f2f2f2;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
+header h1 {
   background-color: #752fe0;
-  color: #f2f2f2f2;
+  color: white;
   padding: 12px;
-}
-
-.topnav h1 {
   text-align: center;
 }
 
-.backgroundcard {
+.backCards {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.cards {
   background-color: #2f94e0;
-}
-
-.cardcenter {
+  border-radius: 5px;
+  margin: 16px;
   text-align: center;
-  margin: 20px 0;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 16px;
+  padding-bottom: 30px;
+  padding-left: 6px;
 }
 
-.cardcenter p {
-  color: #f2f2f2f2;
+.cards p {
+  text-align: left;
+  padding: 12px;
+  color: white;
   font-weight: bold;
 }
 
-.links a {
+.links {
+  display: flex;
   background-color: black;
+  justify-content: space-between;
+  padding: 12px;
+  padding-left: 23px;
+  border-radius: 12px;
+}
+
+a {
   color: yellow;
-  border-radius: 8px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+#card1 {
+  background-color: #ff5475;
+  border-radius: 5px;
+  margin: 20px;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  padding: 12px;
+}
+
+#card2 {
+  background-color: #e9a385;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+#card3 {
+  background-color: #fbebaf;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+p,
+h1 {
+  text-align: left;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+footer {
+  background-color: #f2f2f2f2;
+  min-height: 140px;
+}
+
+footer p {
+  text-align: center;
 }
